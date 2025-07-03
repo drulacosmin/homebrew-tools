@@ -10,8 +10,8 @@ class Gketap < Formula
   depends_on "python@3.11"
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/4f/9e/ca4ea3aa1ac305fa67670d94bdb015e2f0d9f203a33d78e20f252a40d458/click-8.1.7.tar.gz"
-    sha256 "3c96b3ccfd033ba510ba1981a0661a2c10a5ab2e9f99a5c797d39bd90a5e1823"
+    url "https://files.pythonhosted.org/packages/49/d6/00f0f5e546ef9dfb1792c7b67c80a271b1773e0a25f338beeb8dc1b23fbd/click-8.1.7.tar.gz"
+    sha256 "7c8c58e4bfc476e8428de1be72d3572ce91db8df0f9fd5c1d1f4197866b0150b"
   end
 
   resource "pyyaml" do
@@ -31,8 +31,6 @@ class Gketap < Formula
 
   def install
     virtualenv_install_with_resources
-
-    # Ensure correct CLI wrapper in /usr/local/bin
     bin.install_symlink libexec/"bin/gketap"
   end
 
