@@ -15,19 +15,22 @@ class Gketap < Formula
   end
 
   resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/6f/d9/8f55ec3c68c5160579babc55aa645011ed618c1b1072e60e8f11c45a3e3f/PyYAML-6.0.1.tar.gz"
-    sha256 "b1a4e7ea055adf409293abfa04c2fc3b116da55c7b8b6d4d65cbe718f4d9e1c8"
+    url "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz"
+    sha256 "bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43"
   end
+
 
   resource "psutil" do
-    url "https://files.pythonhosted.org/packages/b6/20/cda9b29bdee80371b9d3f0ecfa79c9cb9bc49a0d4cf9d8c35f304e40342d/psutil-5.9.8.tar.gz"
-    sha256 "b4df4329870c5188001a4a1e4076a518e028e262c701ca04f08c1e1679f628d0"
+    url "https://files.pythonhosted.org/packages/e7/4f/e050e26cb0e07e5a0b7f9b282529776ea315e4656f00f1b765cfb72443a7/psutil-5.9.8.tar.gz"
+    sha256 "1f2c7fa72b7dfcb3bb8f4bfb01996d2d028def48c9bc4f2c6787db2eaef54f62"
   end
 
+
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/64/82/f3f1323ab8dbe287d8b8a3b6cbcbde2603e33e7599c881f87fc90fd2344f/rich-13.7.1.tar.gz"
-    sha256 "b3dbfd15c5793cb1f3cb6c5c8bfaad0123b927a5a943ef4ce63575e7e8cf1936"
+    url "https://files.pythonhosted.org/packages/f5/28/4d009f92d1f76ae65f2a28ae2c3254cb113f39cf2318a79a40140a53cb62/rich-13.7.1.tar.gz"
+    sha256 "4376e7dc20c33c1edb0012e297b9617eae5e2e23ef6f437aa3ebf4ed8f0ef8e5"
   end
+
 
   def install
     virtualenv_install_with_resources
