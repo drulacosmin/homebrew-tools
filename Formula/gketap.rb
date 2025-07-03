@@ -21,9 +21,10 @@ class Gketap < Formula
 
 
   resource "psutil" do
-    url "https://files.pythonhosted.org/packages/e7/4f/e050e26cb0e07e5a0b7f9b282529776ea315e4656f00f1b765cfb72443a7/psutil-5.9.8.tar.gz"
-    sha256 "1f2c7fa72b7dfcb3bb8f4bfb01996d2d028def48c9bc4f2c6787db2eaef54f62"
+    url "https://files.pythonhosted.org/packages/90/c7/6dc0a455d111f68ee43f27793971cf03fe29b6ef972042549db29eec39a2/psutil-5.9.8.tar.gz"
+    sha256 "6be126e3225486dff286a8fb9a06246a5253f4c7c53b475ea5f5ac934e64194c"
   end
+
 
 
   resource "rich" do
