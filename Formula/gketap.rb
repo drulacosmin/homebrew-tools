@@ -28,9 +28,10 @@ class Gketap < Formula
 
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/f5/28/4d009f92d1f76ae65f2a28ae2c3254cb113f39cf2318a79a40140a53cb62/rich-13.7.1.tar.gz"
-    sha256 "4376e7dc20c33c1edb0012e297b9617eae5e2e23ef6f437aa3ebf4ed8f0ef8e5"
+    url "https://files.pythonhosted.org/packages/b3/01/c954e134dc440ab5f96952fe52b4fdc64225530320a910473c1fe270d9aa/rich-13.7.1.tar.gz"
+    sha256 "9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbcc3a432"
   end
+
 
 
   def install
