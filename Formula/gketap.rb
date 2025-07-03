@@ -31,6 +31,9 @@ class Gketap < Formula
 
   def install
     virtualenv_install_with_resources
+
+    # Ensure correct CLI wrapper in /usr/local/bin
+    bin.install_symlink libexec/"bin/gketap"
   end
 
   test do
