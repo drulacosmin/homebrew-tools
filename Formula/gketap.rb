@@ -3,8 +3,9 @@ class Gketap < Formula
 
   desc "Tap into GKE clusters securely via SSH tunnels"
   homepage "https://github.com/drulacosmin/gketap"
-  url "https://files.pythonhosted.org/packages/1c/69/eeef4f57452fa7cde5b6a89b590ef18935689286aa943c59abefb3c676f3/gketap-1.0.0.tar.gz"
-  sha256 "1dc1b2524ad4d5e9fef472c6af4782fd482f7ad6652fdde4e9b9e96cd6a5d4a5"
+  url "https://files.pythonhosted.org/packages/b1/e7/2314af742cae691c98c1902d2713e25d4ff7520af716902f9a9488acef19/gketap-1.0.1.tar.gz"
+  sha256 "e18a0e564d5f99a6036ba12b4ea5c9011eed1f940bdf030498d33a1361847d1c"
+
   license "MIT"
 
   depends_on "python@3.11"
